@@ -267,3 +267,20 @@ td, th{
 h4{
     color: white;
 }
+
+@media screen and (max-width:480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .feedback, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+}
