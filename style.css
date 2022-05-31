@@ -268,6 +268,8 @@ h4{
     color: white;
 }
 
+/* home */
+
 @media screen and (max-width:480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .feedback, .video{
         width: auto;
@@ -283,4 +285,39 @@ h4{
     .lista-beneficios, .imagem-beneficios{
         width: 100%;
     }
+}
+
+/* produtos */
+
+@media screen and (max-width:480px) {
+    .produtos{
+        width: 100%;
+    }
+    .produtos li {
+        display: block;
+        width: 97%;
+    }
+}
+
+/* formulario */
+
+@media screen and (max-width:480px) {
+    textarea{
+        width: 90%;
+    }
+    .input-padrao{
+        width: 77%;
+    }
+    .res{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    fieldset{
+        margin-top: 15px;
+    }
+    select{
+        width: 30%;
+        font-size: 17px;
+    }
+
 }

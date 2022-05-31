@@ -24,20 +24,20 @@
 
     <main>
         <form>
-            <label for="nome-sobrenome">Nome e sobrenome</label>
+            <label class ="res" for="nome-sobrenome">Nome e sobrenome</label>
             <input type="text" id="nome-sobrenome" class="input-padrao" required >
 
-            <label for="email">Email</label>
+            <label class ="res" for="email">Email</label>
             <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-            <label for="telefone">Telefone</label>
+            <label class ="res" for="telefone">Telefone</label>
             <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-            <label for="mensagem">Mensagem</label>
+            <label class ="res" for="mensagem">Mensagem</label>
             <textarea cols="70" rows="10" id="mensagem"></textarea required>
 
             <fieldset>
-                <legend>Como prefere nosso contato?</legend>
+                <legend class ="res">Como prefere nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
                 <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
@@ -46,7 +46,7 @@
             </fieldset>
 
             <fieldset>
-                <p>qual horário prefere ser atendido?</p>
+                <p class ="res">Qual horário prefere ser atendido?</p>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
